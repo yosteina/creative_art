@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Ubuntu');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+
+}
+
+.header {
+  width: 100%;
+  min-height: 100%;
+  background-image: url(/imags/art5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.menu ul {
+  list-style: none;
+  background-color: transparent;
+
+}
+
+.menu ul li {
+  display: inline-block;
+  position: relative;
+  left: 650px;
+
+}
+
+ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  position: relative;
+  bottom: 50px;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+  color: rgba(255, 0, 0, 0.645);
+  transition: 0.7s;
+}
+
+.menu h3 {
+  padding: 25px;
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.menu span {
+  color: rgba(255, 0, 0, 0.825);
+}
+
+.continer .say {
+  text-align: center;
+  position: relative;
+  top: 150px;
+  font-size: 30px;
+}
+
+.say p {
+  color: #fff;
+  padding: 40px;
+  font-size: 25px;
+}
+
+.say h1 span {
+  color: rgba(255, 0, 0, 0.656);
+}
+
+
+
+
+
+
+
+.payment {
+  background: #f8f8f862;
+  max-width: 360px;
+  margin: 80px auto;
+  height: auto;
+  padding: 35px;
+  padding-top: 80px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.payment h2 {
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  color: #0d3c61;
+}
+
+.form .label {
+  display: block;
+  color: #0d3c61;
+  margin-bottom: 6px;
+}
+
+.input {
+  padding: 13px 0px 13px 25px;
+  width: 100%;
+  text-align: center;
+  border: 2px solid #e6e6e6;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  outline: none;
+  font-size: 16px;
+  color: #747474;
+}
+
+.card-grp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-item {
+  width: 48%;
+}
+
+.space {
+  margin-bottom: 20px;
+}
+
+.icon-relative {
+  position: relative;
+}
+
+.icon-relative .fas,
+.icon-relative .far {
+  position: absolute;
+  bottom: 12px;
+  left: 15px;
+  font-size: 20px;
+  color: #555555;
+}
+
+.btn {
+  margin-top: 40px;
+  background: #2196F3;
+  padding: 12px;
+  text-align: center;
+  color: #f8f8f8;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.payment-logo {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  background: #f8f8f8;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  line-height: 85px;
+}
+
+.payment-logo:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 90px;
+  height: 90px;
+  background: #2196F3;
+  border-radius: 50%;
+}
+
+.payment-logo p {
+  position: relative;
+  color: #f8f8f8;
+  font-family: 'Baloo Bhaijaan', cursive;
+  font-size: 58px;
+}
+
+
+@media screen and (max-width: 420px) {
+  .card-grp {
+    flex-direction: column;
+  }
+
+  .card-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    margin-top: 20px;
+  }
+}

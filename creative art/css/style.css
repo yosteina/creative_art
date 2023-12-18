@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/imags/art6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.menu ul {
+    list-style: none;
+    background-color: transparent;
+
+}
+
+.menu ul li {
+    display: inline-block;
+    position: relative;
+    left: 650px;
+
+}
+
+ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    bottom: 50px;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: rgba(255, 0, 0, 0.645);
+    transition: 0.7s;
+}
+
+.menu h3 {
+    padding: 25px;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.menu span {
+    color: rgba(255, 0, 0, 0.825);
+}
+
+.continer .say {
+    text-align: center;
+    position: relative;
+    top: 160px;
+    font-size: 30px;
+}
+
+.say p {
+    color: #fff;
+    padding: 30px;
+    font-size: 25px;
+}
+
+.say h1 span {
+    color: rgba(255, 0, 0, 0.656);
+}
+
+.search {
+    text-align: center;
+    position: relative;
+    top: 160px;
+
+}
+
+.search input {
+    width: 200px;
+    padding: 7px;
+    border: 0 solid white;
+    border-radius: 50px;
+    color: black;
+
+
+}
+
+.search button {
+    padding: 7px;
+    border: 1px solid #ffffff75;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.search input:hover {
+    background-color: transparent;
+    color: black;
+    width: 450px;
+    transition: 0.8s;
+}
